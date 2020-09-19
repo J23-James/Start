@@ -1,0 +1,27 @@
+.history{
+    padding: 1rem 2rem 1rem 0;
+
+    &__content{
+        display: flex;
+    }
+
+    &__img--container{
+        width: 50%;
+        margin-right: 2rem;
+        background-image: url(./../../../images/decor.jpg);
+        background-attachment: fixed;
+        clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    }
+
+    &__text{
+        width: 50%;
+    }
+
+    &__desc{
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: gray;
+        margin-bottom: 2rem;
+    }
+
+}

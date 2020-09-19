@@ -1,0 +1,20 @@
+.footer{
+    padding:  4rem;
+    display: flex;
+    background-color: rgb(90, 97, 90);
+    border-top: 1px solid black;
+    justify-content: space-around;
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        margin: .5rem 0;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: rgb(240, 240, 240);
+    }
+}

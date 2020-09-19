@@ -1,0 +1,39 @@
+.email{
+    background-color: rgba(128, 128, 128, 0.705);
+    padding: 8rem 0;
+
+    &__content{
+        width: 70%;
+        background-color: rgba(128, 128, 128, 0.808);
+        margin: 0 auto;
+        padding: 4rem 2rem;
+        box-shadow: 2px 2px 4px black;
+        border-radius: 5px;
+
+        &--info{
+            width: 70%;
+            background-color: white;
+            padding: 4rem 2rem;
+            margin: 0 auto;
+            box-shadow: 2px 2px 4px black;
+            border-radius: 5px;
+        }
+        
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    &__input{
+        margin-bottom: 1.2rem;
+        padding: .6rem 1rem;
+        box-shadow: 2px 2px 4px rgba(143, 141, 140, 0.548);
+        border: none;
+        border-radius: 5px;
+    }
+
+}

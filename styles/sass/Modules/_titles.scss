@@ -1,0 +1,39 @@
+.header__title{
+    font-size: 3rem;
+    color: white;
+}
+
+.category__title{
+    font-size: 1.7rem;
+
+    &--orange{
+        color: rgb(253, 194, 1);
+    }
+
+    &--white{
+        color: rgb(223, 211, 211);
+    }
+}
+
+.history__title{
+    font-size: 1.6rem;  
+    margin-top: 0%;
+}
+
+.review__title{
+    margin: 0 0 .4rem 0;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.product__title{
+    color: burlywood;
+    margin: 0;
+}
+
+.email__title{
+    color: rgb(240, 177, 84);
+    font-size: 2rem;
+    text-align: center;
+}
