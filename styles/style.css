@@ -49,7 +49,7 @@ body {
   margin-right: .7rem; }
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.514)), url(./../images/Dress.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.514)), url("./../images/Dress.jpg");
   height: 100vh;
   background-attachment: fixed; }
   .header__hero-content {
@@ -151,7 +151,7 @@ body {
   .history__img--container {
     width: 50%;
     margin-right: 2rem;
-    background-image: url(../images/decor.jpg);
+    background-image: url("../images/decor.jpg");
     background-attachment: fixed;
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%); }
   .history__text {
@@ -197,7 +197,7 @@ body {
 
 .products {
   padding: 8rem 4rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.555)), url(../../../images/code.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.555)), url(../images/code.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
